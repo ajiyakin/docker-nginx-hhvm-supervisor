@@ -5,7 +5,7 @@ Docker images for PHP development using NGINX, HHVM and Supervisor as services m
 To run this images, just use this command:
 
 
-    docker run -d [--name=<container_name>] --volume=<project_path>:/usr/share/nginx/html ajiyakin/nginx-hhvm-supervisor:beta
+    docker run -d [--name=<container_name>] --volume=<project_path>:/usr/share/nginx/html ajiyakin/nginx-hhvm-supervisor:latest
 
 
 `<container_name>` is the name that you want for container. If you not specified
